@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+  font-size: 16px;
+  font-family:  "Rival Sans Black", "Rival Sans", Roboto, "Rival Sans ExtraBold", "Rival Sans Medium", "Rival Sans Light", "Rival Sans Thin", "Rival Sans Narrow";
+}
+
+body {
+  	background-color: #F2F2F2;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	
+
+}
+
+header {
+	text-align: center;
+	color: #565D46;
+}
+
+h1 {
+	font-family: "Rival Sans Black";
+}
+
+h4 {
+	font-family: "Rival Sans Thin";
+}
+header a {
+  text-decoration: none;
+  font-family: "Rival Sans Thin";
+  font-size: 20px;
+  color: #565D46;
+  display: block;
+}
+header a:hover {
+  color: #373C2D;
+	text-decoration: underline;
+}
+
+
+nav {
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 100px;
+  left: 30px;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+nav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #565D46;
+  display: block;
+}
+
+nav a:hover {
+  color: #373C2D;
+}
+
+main {
+	margin-left: 180px; /* Same width as the sidebar + left position in px */
+	padding: 0px 10px;
+	display: inline-block;
+}
+
+img {
+	max-width: 45%;
+  height: auto;
+display: inline;
+	padding: 15px;
+	
+
+}
+
+.contact main {
+	margin-left: 300px;
+	color: #373C2D;
+	font-family: Roboto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
